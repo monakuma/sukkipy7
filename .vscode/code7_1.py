@@ -1,0 +1,6 @@
+#text=input('何を記録しますか？')
+file=open('diary.txt','r',encoding='UTF-8')
+#file.write(text+'\n')
+t=file.read()
+print(t)
+file.close()
